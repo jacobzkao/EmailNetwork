@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graph Visualization</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css">
+    <script src="https:/cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
+    <!-- D3.js from CDN -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="navbar" class="navbar">
+        <h1>VAST Mini-Challenge 1: Email Network</h1>
+      </div>
+
+      <div class="container">
+        <div id="configPanel" class="config_container"></div>
+        <div id="visualization" class="vis_container">
+          <div
+            id="loadingOverlay"
+            class="loading-overlay"
+            style="display: none"
+          >
+            Loading...
+          </div>
+          <div
+            id="errorMessage"
+            class="error-message"
+            style="display: none"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/visualization.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
