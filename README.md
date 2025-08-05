@@ -2,7 +2,9 @@
 
 This is an interactive web application for visualizing email communication networks over time. It enables users to query, filter, and explore email metadata through a dynamic graph interface.
 
-<img width="1910" height="905" alt="image" src="https://github.com/user-attachments/assets/f15a8d4c-308c-4250-b18a-ba8f01e75645" />
+[ 🔗 *Click on the image to watch a video!* ]
+[![Watch the video](https://github.com/user-attachments/assets/f15a8d4c-308c-4250-b18a-ba8f01e75645)](https://drive.google.com/file/d/1TWyvDm6QB-l8E2fuBmMN2N1pdMPelHF2/view?usp=sharing)
+
 
 
 ## 🔍 Overview
